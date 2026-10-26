@@ -85,8 +85,6 @@ INSERT INTO tb_user (nama_lengkap, username, password, role, status_aktif) VALUE
 ('Alea Kennedy','alea','alea','admin',1),
 ('Baskara Santoso','baskara','baskara','petugas',1),
 ('Camila Putri','camila','camila','owner',1),
-('Dayat Jojo','dayat','dayat','petugas',1),
-('Emily Yorr','emily','emily','petugas',1),
-('Fawas Hidayat','fawas','fawas','petugas',1);
+('Emily Yorr','emily','emily','petugas',1),;
 INSERT INTO tb_tarif (jenis_kendaraan, tarif_per_jam) VALUES ('motor',3000),('mobil',5000),('lainnya',7000);
 INSERT INTO tb_area_parkir (nama_area, kapasitas, terisi) VALUES ('Lobby Hotel',20,0),('Basement',40,0),('Area Karyawan',15,0);
